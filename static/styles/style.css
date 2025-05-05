@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+
+.conteiner {
+    text-align: center;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+ 
+ 
+}
+
+.conteiner1 {
+    font-style: normal;
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    padding: 5px;
+}
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 0;
+    border-width: 5px;
+    
+
+}
+
+.nav-conteiner>nav>ul {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-width: 0.5px; 
+    background-color: black;
+    border-bottom-style: solid ;
+    border-style: solid;
+    color: black;
+
+    
+}
+
+
+.nav-conteiner>nav>ul>li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-conteiner>nav>ul>li>input {
+    font-size: 20px;
+} 
+
+
+
+
+
+@media (max-width: 900px) {
+.nav-conteiner {
+flex-direction: column;
+}
+}
+
+
+
+.slide-text,
+.footer-text {
+    color: rgb(255, 255, 255);
+    margin-top: 3000px;
+    background-color: black;
+    height: 200px;
+    padding: 50px;
+}
+
+
+.nav-conteiner a:hover {
+background-color: darkgrey;
+text-decoration: none;
+}
+ 
+
+.nav-conteiner>nav>ul>li>a {
+text-decoration: none;
+padding: 10px;
+border-width: 0.5px;
+display: block;
+margin: 10px;
+}
+
+ .news {        
+font-style: italic;
+border-style: solid;
+}
+
+.news>h2 {    
+    text-align: center;
+    margin-left: 20px;
+color: white;
+font-size: 30px ;
+background-color: black;
+padding: 20px;
+color: white;
+background-color: black;
+}
+
+.news>p {
+   font-size: large; 
+   font-weight: 900 ;
+   text-align: left;
+   margin-left: 20px;
+   font-style: normal;
+
+
+}
+
+.dop {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+
+}
+
+.glavnaya {
+color: rgb(0, 0, 0);
+padding: 0px;
+margin: 0px;
+font-size: 1.5px;
+background-color: black;
+}
+
+.support { 
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.gta {
+    background-color: black;
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    
+}
+
+
+
+
+@media (min-width: 1200px) {
+    
+}
+
+
+
+
